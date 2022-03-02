@@ -1,0 +1,19 @@
+Started by GitHub push by harishk662
+Running as SYSTEM
+Building remotely on [8mha:////4Jt3kXcmYCJ6XLR6JoiENEkCcy4fvWknfTsqDFeS5aBLAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygOw0BADPgR8QAAAA=[0mnode1 in workspace /home/ubuntu/home/ubuntu/home/ubuntu/workspace/c-project1
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/ubuntu/home/ubuntu/home/ubuntu/workspace/c-project1/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/harishk662/harishk662.git # timeout=10
+Fetching upstream changes from https://github.com/harishk662/harishk662.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.7.4'
+ > git fetch --tags --progress https://github.com/harishk662/harishk662.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 72532833fc2c47f2f7acc9cda3a051d75dc63cac (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 72532833fc2c47f2f7acc9cda3a051d75dc63cac # timeout=10
+Commit message: "Create abcd"
+ > git rev-list --no-walk 0e9976a35b9845a3a4433ffd156d5694cd5c67e9 # timeout=10
+Finished: SUCCESS

@@ -1,0 +1,22 @@
+Started by user [8mha:////4CTBjQkhlJCQzi3Q7swquwUS+5+vyA+GTZmoYV0W/jacAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYu/dLi1CL9jMSiTAB+mqewvwAAAA==[0mHarish K L
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/java-project
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/harishk662/test.git
+ > git init /var/lib/jenkins/workspace/java-project # timeout=10
+Fetching upstream changes from https://github.com/harishk662/test.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/harishk662/test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/harishk662/test.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision a9e9add3c977cfdcf2ae353f04274991a3474f42 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a9e9add3c977cfdcf2ae353f04274991a3474f42 # timeout=10
+Commit message: "creating java"
+First time build. Skipping changelog.
+Finished: SUCCESS

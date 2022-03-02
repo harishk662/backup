@@ -1,0 +1,19 @@
+Started by user [8mha:////4CTBjQkhlJCQzi3Q7swquwUS+5+vyA+GTZmoYV0W/jacAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYu/dLi1CL9jMSiTAB+mqewvwAAAA==[0mHarish K L
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/c-project1
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/c-project1/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/harishk662/harishk662.git # timeout=10
+Fetching upstream changes from https://github.com/harishk662/harishk662.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/harishk662/harishk662.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 5c06b90f0092ce52a9fc7326a3c7afdb70086edb (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5c06b90f0092ce52a9fc7326a3c7afdb70086edb # timeout=10
+Commit message: "added c files"
+ > git rev-list --no-walk 5c06b90f0092ce52a9fc7326a3c7afdb70086edb # timeout=10
+Finished: SUCCESS
